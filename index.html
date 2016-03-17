@@ -81,6 +81,56 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/03/17/Git的使用技巧/" title="Git的使用技巧" itemprop="url">Git的使用技巧</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="Xu Hongbin" target="_blank" itemprop="author">Xu Hongbin</a>
+		
+  <p class="article-time">
+    <time datetime="2016-03-17T14:18:57.230Z" itemprop="datePublished"> 发表于 2016-03-17</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>Git的使用技巧:<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">Linux</span><br><span class="line"></span><br><span class="line">$ ssh-keygen -t rsa -C "mail@gmail.com"</span><br><span class="line"></span><br><span class="line">//这的密码不是我们，GitHub的密码，而是Git SSH的密码</span><br><span class="line"></span><br><span class="line">//保存SSH密码</span><br><span class="line">$ eval "$(ssh-agent -s)" //Linux</span><br><span class="line">$ ssh-agent -s //Windows</span><br><span class="line"></span><br><span class="line">$ ssh-add ~/.ssh/id_rsa</span><br><span class="line"></span><br><span class="line">//打开Git生成的密码文件，将其复制到GitHub上</span><br><span class="line">$ vim ~/.ssh/id_rsa.pub</span><br><span class="line"></span><br><span class="line">//验证GitHub SSH是否成功</span><br><span class="line">$ ssh -T git@github.com</span><br><span class="line"></span><br><span class="line">## Git远程协作</span><br><span class="line"></span><br><span class="line">git clone</span><br><span class="line"></span><br><span class="line">//数据更新以及同步的协议</span><br><span class="line">git clone</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git fetch</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure></p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/03/17/hello-world/" title="Hello World" itemprop="url">Hello World</a>
   </h1>
   <p class="article-author">By
